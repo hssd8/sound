@@ -1,0 +1,63 @@
+/* 
+    Created on : Apr 10, 2015, 10:38:15 PM
+    Author     : IBRAHIM
+*/
+body
+{
+    background  : darkorange;
+    padding     : 0px;
+    margin      : 0px;
+    font-family : "Arial";
+    font-size   : 13px;
+    color       : #FFF;
+}
+.wrapper
+{ 
+    display:block;
+}
+/*-------------------------------------------------------------*/
+/*                        Login Style*/
+/*-------------------------------------------------------------*/
+.login-style
+{
+    background : none;
+    width      : 925px;
+    margin     : 10% auto 0px auto;
+    overflow   : hidden; 
+}
+.login-style #left
+{    
+    width : 60%;
+    float : left;
+    height : 335px;
+    border-radius : 7px;
+    background : #719F2D;  
+}
+.login-style #right
+{    
+    width : 38%;
+    float : right; 
+}
+
+.login-style #right #top
+{
+    background    : #D2D1D1;
+    border-radius : 7px;
+    padding       : 5px;
+    height        : 125px; 
+}
+
+.login-style #right #bottom
+{
+    background    : #878787;
+    border-radius : 7px;
+    padding       : 5px;
+    height        : 175px;
+    margin-top    : 15px; 
+}
+
+.footer-login
+{
+    width      : 925px;
+    margin     : 15px auto 0px auto;
+}
