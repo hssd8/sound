@@ -32,7 +32,7 @@
                 </div>
             </div>
             <div class='footer-login'>
-                 &copy; Sound Upload System 2015
+                 &copy; Sound Upload System 2015 yes working now 
             </div>
         </div>
     </body>
