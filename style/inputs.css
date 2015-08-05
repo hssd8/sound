@@ -1,0 +1,14 @@
+/** 
+ * Created on  : Apr 10, 2015, 10:38:15 PM
+ * Author      : Ibrahim & Atiku
+ * Description : Designs for Inputs, Textarea , Buttons e.t.c.
+ */
+
+/*-------------------------------------------------------------*/
+/*                        General Inputs*/
+/*-------------------------------------------------------------*/
+.gen_inp
+{
+    border-radius : 7px;
+    padding : 7px; 
+}
