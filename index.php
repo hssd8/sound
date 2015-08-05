@@ -24,15 +24,18 @@
                 </div>
                 <div id='right'>
                     <div id='top'>
-                        
+                        <input type='text' name='email' class='gen_inp' />
+                        <input type='password' name='pswd' class='gen_inp' />
                     </div>
                     <div id='bottom'>
-                        
+                        <input type='text'  name='reg_name'  class='gen_inp'/>
+                        <input type='text'  name='reg_email' class='gen_inp'/>
+                        <input type='password' name='reg_pswd' class='gen_inp'/>
                     </div>
                 </div>
             </div>
             <div class='footer-login'>
-                 &copy; Sound Upload System 2015 yes working now Ibrahim From here ..
+                 &copy; Sound Upload System 2015
             </div>
         </div>
     </body>
