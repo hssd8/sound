@@ -1,7 +1,13 @@
-/* 
-    Created on : Apr 10, 2015, 10:38:15 PM
-    Author     : IBRAHIM
-*/
+/** 
+ * Created on  : Apr 10, 2015, 10:38:15 PM
+ * Author      : Ibrahim & Atiku
+ * Description : General Layout designs
+ */
+/*-------------------------------------------------------------*/
+/*                        Imports                              */
+/*-------------------------------------------------------------*/
+@import url(inputs.css);
+
 body
 {
     background  : darkorange;
@@ -11,12 +17,13 @@ body
     font-size   : 13px;
     color       : #FFF;
 }
+
 .wrapper
 { 
     display:block;
 }
 /*-------------------------------------------------------------*/
-/*                        Login Style*/
+/*                        Login Style                          */
 /*-------------------------------------------------------------*/
 .login-style
 {
