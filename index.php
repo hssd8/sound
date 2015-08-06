@@ -18,19 +18,24 @@
     </head>
     <body>
         <div class="wrapper">
+            <div class='top-holder' >
+                <img src='images/logo.fw.png' />
+            </div>
             <div class='login-style'>
                 <div id='left'>
                     
                 </div>
                 <div id='right'>
                     <div id='top'>
-                        <input type='text' name='email' class='gen_inp inp_top' />
-                        <input type='password' name='pswd' class='gen_inp inp_bottom' />
+                        <input type='text' name='email' class='gen_inp inp_top' value='Email' />
+                        <input type='password' name='pswd' class='gen_inp inp_bottom' value='pasword' title='Enter Password'/>
+                        <input type='submit' name='login_sub' class='gen_sub login_but' value='LOGIN'/>
                     </div>
                     <div id='bottom'>
-                        <input type='text'  name='reg_name'  class='gen_inp inp_top'/>
-                        <input type='text'  name='reg_email' class='gen_inp inp_mid'/>
-                        <input type='password' name='reg_pswd' class='gen_inp inp_bottom'/>
+                        <input type='text'  name='reg_name'  class='gen_inp inp_top' value='Full Name'/>
+                        <input type='text'  name='reg_email' class='gen_inp inp_mid'value='Email'/>
+                        <input type='password' name='reg_pswd' class='gen_inp inp_bottom' value='password' title='Enter Password'/>
+                        <input type='submit' name='reg_sub'class='gen_sub reg_but' value='REGISTER'/>
                     </div>
                 </div>
             </div>
