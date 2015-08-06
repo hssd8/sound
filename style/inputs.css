@@ -5,7 +5,7 @@
  */
 
 /*-------------------------------------------------------------*/
-/*                        General Inputs*/
+/*                   General Inputs & Buttons*/
 /*-------------------------------------------------------------*/
 .gen_inp
 {
@@ -16,6 +16,17 @@
     box-sizing      : border-box;
     -moz-box-sizing : border-box;
     -webkit-box-sizing:border-box;
+}
+.gen_sub
+{   
+    margin-top  : 7px;
+    padding     : 13px;   
+    width       : 100%;
+    cursor      : pointer;
+    border-radius     : 7px;
+    box-sizing        : border-box;
+   -moz-box-sizing    : border-box;
+   -webkit-box-sizing :border-box;
 }
 /*-------------------------------------------------------------*/
 /*                    Login & Register Inputs*/
@@ -35,4 +46,19 @@
     border-top : 0px;
     border-top-right-radius: 0px;
     border-top-left-radius : 0px; 
+}
+/*-------------------------------------------------------------*/
+/*                    Login & Register Buttons*/
+/*-------------------------------------------------------------*/
+.login_but
+{
+    border     : 3px solid #FF8C00;
+    background : #878787; 
+    color      : #FFF;
+}
+
+.reg_but
+{
+    border     : 3px solid #FF8C00;
+    background : #D2D1D1; 
 }
