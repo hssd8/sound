@@ -9,7 +9,30 @@
 /*-------------------------------------------------------------*/
 .gen_inp
 {
-    border-radius : 7px;
-    padding : 7px;
-    border : 1px solid #BBB;
+    padding : 13px;
+    border  : 1px solid #BBB;
+    width   : 100%;
+    border-radius   : 7px;
+    box-sizing      : border-box;
+    -moz-box-sizing : border-box;
+    -webkit-box-sizing:border-box;
+}
+/*-------------------------------------------------------------*/
+/*                    Login & Register Inputs*/
+/*-------------------------------------------------------------*/
+.inp_top
+{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.inp_mid
+{
+    border-radius : 0px;
+    border-top : 0px;
+}
+.inp_bottom
+{
+    border-top : 0px;
+    border-top-right-radius: 0px;
+    border-top-left-radius : 0px; 
 }
