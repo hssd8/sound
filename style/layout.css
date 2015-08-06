@@ -34,7 +34,7 @@ body
 }
 .login-style #left
 {    
-    width : 60%;
+    width : 65%;
     float : left;
     height : 335px;
     border-radius : 7px;
@@ -42,15 +42,15 @@ body
 }
 .login-style #right
 {    
-    width : 38%;
+    width : 33%;
     float : right; 
 }
 
 .login-style #right #top
-{
+{   
     background    : #D2D1D1;
     border-radius : 7px;
-    padding       : 5px;
+    padding       : 13px 15px;
     height        : 125px; 
 }
 
@@ -58,7 +58,7 @@ body
 {
     background    : #878787;
     border-radius : 7px;
-    padding       : 5px;
+    padding       : 13px 15px;
     height        : 175px;
     margin-top    : 15px; 
 }
