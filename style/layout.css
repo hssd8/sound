@@ -25,18 +25,24 @@ body
 /*-------------------------------------------------------------*/
 /*                        Login Style                          */
 /*-------------------------------------------------------------*/
+.top-holder
+{
+    background : none;
+    width      : 925px;
+    margin     : 7% auto 17px auto; 
+}
 .login-style
 {
     background : none;
     width      : 925px;
-    margin     : 10% auto 0px auto;
-    overflow   : hidden; 
+    overflow   : hidden;
+    margin     : 0px auto; 
 }
 .login-style #left
 {    
     width : 65%;
     float : left;
-    height : 335px;
+    height : 387px;
     border-radius : 7px;
     background : #719F2D;  
 }
@@ -51,7 +57,6 @@ body
     background    : #D2D1D1;
     border-radius : 7px;
     padding       : 13px 15px;
-    height        : 125px; 
 }
 
 .login-style #right #bottom
@@ -59,7 +64,6 @@ body
     background    : #878787;
     border-radius : 7px;
     padding       : 13px 15px;
-    height        : 175px;
     margin-top    : 15px; 
 }
 
