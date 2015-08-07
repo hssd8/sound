@@ -23,12 +23,7 @@
             </div>
             <div class='login-style'>
                 <div id='left'>
-                    <div class='sub-cat'>
-                        
-                    </div>
-                    <div class='sub-cat'>
-                        
-                    </div>
+
                 </div>
                 <div id='right'>
                     <div id='top'>
