@@ -17,6 +17,7 @@
         <title>Sound Up Load System</title>
     </head>
     <body>
+        <div class='loader'> </div>
         <div class="wrapper">
             <div class='top-holder' >
                 <img src='images/logo.fw.png' />
