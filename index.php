@@ -14,13 +14,17 @@
     <head>
         <meta charset="UTF-8">
         <link href="style/layout.css" rel="stylesheet" type="text/css" />
-        <title>Sound Up Load System</title>
+        <link rel="icon" href="./images/icon.fw.png" />
+        <title>Sound Upload System</title>
     </head>
     <body>
         <div class='loader'> </div>
         <div class="wrapper">
             <div class='top-holder' >
                 <img src='images/logo.fw.png' />
+                <div class='sys-error'>
+                    Invalid login detail<span class='close-div'>X</span>
+                </div>
             </div>
             <div class='login-style'>
                 <div id='left'>

@@ -8,6 +8,9 @@
 /*-------------------------------------------------------------*/
 @import url(inputs.css);
 
+/*-------------------------------------------------------------*/
+/*                     General Styles                          */
+/*-------------------------------------------------------------*/
 body
 {
     background  : darkorange;
@@ -32,6 +35,12 @@ body
     top        : 0px;
     display    : none; 
 }
+.close-div
+{
+    float       : right;
+    font-weight : bolder;
+    cursor      : pointer;
+}
 
 /*-------------------------------------------------------------*/
 /*                        Login Style                          */
@@ -41,6 +50,16 @@ body
     background : none;
     width      : 925px;
     margin     : 5% auto 17px auto; 
+}
+.top-holder .sys-error
+{
+    padding       : 11px;
+    background    : salmon;
+    color         : red;
+    border        : 1px solid red;
+    margin        : 15px 0px;
+    border-radius : 7px;
+    display       : none;
 }
 .login-style
 {
@@ -63,14 +82,12 @@ body
     width : 33%;
     float : right; 
 }
-
 .login-style #right #top
 {   
     background    : #D2D1D1;
     border-radius : 7px;
     padding       : 13px 15px;
 }
-
 .login-style #right #bottom
 {
     background    : #878787;
@@ -78,14 +95,12 @@ body
     padding       : 13px 15px;
     margin-top    : 15px; 
 }
-
 .login-style .sub-cat
 {
     background : #FFF;
     width      : 25%;
     height     : 25%; 
 }
-
 .footer-login
 {
     width      : 925px;
