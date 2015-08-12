@@ -59,7 +59,7 @@ body
     border        : 1px solid red;
     margin        : 15px 0px;
     border-radius : 7px;
-    display       : none;
+    display       : none
 }
 .login-style
 {
@@ -75,7 +75,8 @@ body
     height  : 361px;
     padding : 13px; 
     border-radius : 7px;
-    background : #719F2D;  
+    background : #719F2D url('../images/quran.fw.png'); 
+    cursor : pointer;
 }
 .login-style #right
 {    
@@ -98,8 +99,10 @@ body
 .login-style .sub-cat
 {
     background : #FFF;
-    width      : 25%;
-    height     : 25%; 
+    width      : 31%;
+    height     : 31%; 
+    float      : left;
+    margin-right: 3%
 }
 .footer-login
 {
