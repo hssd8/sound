@@ -8,5 +8,3 @@
  * @version 1.0
  * @link http://www.github.com/hssd8/sound
  */
-?>
-
