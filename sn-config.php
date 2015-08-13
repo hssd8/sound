@@ -45,7 +45,7 @@ class config
      * @access public
      * @var string|integer
      */
-    protected $local          = 'newton';
+    protected $local          = 'new_sound';
     /**
      * This holds the default folder when using Remote online sever
      * @access public
@@ -75,7 +75,7 @@ class config
      * @access public
      * @var string|integer
      */
-    protected $db_local_base  = 'newton';
+    protected $db_local_base  = 'sound';
     /**
      * The return variable  
      * @access public
