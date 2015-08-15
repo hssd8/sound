@@ -1,8 +1,13 @@
 <?php
-
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/**
+ * PHP Define file
+ * 
+ * This file is important to all pages changes can be made to constants if  the 
+ * need arises
+ * @author Ibrahim & Atiku 
+ * @version 1.0
+ * @link http://www.github.com/hssd8/sound
  */
+
+
 
