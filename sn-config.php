@@ -45,7 +45,7 @@ class config
      * @access public
      * @var string|integer
      */
-    protected $local          = 'new_sound';
+    protected $local          = 'sound';
     /**
      * This holds the default folder when using Remote online sever
      * @access public
@@ -75,7 +75,7 @@ class config
      * @access public
      * @var string|integer
      */
-    protected $db_local_base  = 'sound';
+    protected $db_local_base  = 'new_sound';
     /**
      * The return variable  
      * @access public
@@ -114,7 +114,7 @@ class config
            * OR
            * https://mysite.com
            */
-          return $protocol . $host .config::no_root();
+          return $protocol.$host.config::no_root();
     }
 
     /**
