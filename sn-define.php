@@ -9,5 +9,14 @@
  * @link http://www.github.com/hssd8/sound
  */
 
+$system = new config();
 
+/*-------------------------------------------------------------------------*/
+/*                               General Define                            */
+/*-------------------------------------------------------------------------*/
 
+/* Deafault page url */
+define('SN_DEFURL', $system->get_base_url());
+
+/* File Directory */
+define('SN_DEFDIR', $system->pagDir());
