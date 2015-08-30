@@ -26,7 +26,7 @@
             <div class='top-holder' >
                 <img src='images/logo.fw.png' />
                 <div class='sys-error'>
-                    Invalid login detail<span class='close-div'>X</span>
+                    Invalid login detail<span class='close-div' title='Close'>X</span>
                 </div>
             </div>
             <div class='login-style'>
