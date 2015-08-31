@@ -55,8 +55,8 @@ body
 {
     padding       : 11px;
     background    : salmon;
-    color         : red;
-    border        : 1px solid red;
+    color         : #BF0707;
+    border        : 1px solid #BF0707;
     margin        : 15px 0px;
     border-radius : 7px;
     display       : none
