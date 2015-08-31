@@ -21,6 +21,13 @@ $(function() {
            $('.gen_sub').click(function(){
                $('.loader').show();
            });
+           /**
+            * @class gen-sub
+            * @description : Close Error Message at login and register page
+            */
+           $('.close-div').click(function(){
+               $('.sys-error').hide();
+           });
               
                        
 });

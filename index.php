@@ -36,37 +36,46 @@
                 <div id='right'>
                     <!-- Login Holder -->
                     <div id='top'>
-                        <input type='text' 
-                               name='log-email' 
-                               class='gen_inp inp_top' 
-                               placeholder='Email' />
-                        <input type='password' 
-                               name='pswd' 
-                               class='gen_inp inp_bottom' 
-                               placeholder='Password' />
-                        <input type='submit' 
-                               name='login_sub' 
-                               class='gen_sub login_but' 
-                               value='LOGIN'/>
+                        <form action="#" method="POST" autocomplete="off" >
+                            <input type='text' 
+                                   name='log-email' 
+                                   class='gen_inp inp_top' 
+                                   autocomplete="off" 
+                                   placeholder='Email' required />
+                            <input type='password' 
+                                   name='pswd' 
+                                   autocomplete="off"
+                                   class='gen_inp inp_bottom' 
+                                   placeholder='Password' required />
+                            <input type='submit' 
+                                   name='login_sub' 
+                                   class='gen_sub login_but' 
+                                   value='LOGIN'/>
+                        </form>
                     </div>
                     <!-- Register Holder -->
                     <div id='bottom'>
-                        <input type='text'  
-                               name='reg_name'  
-                               class='gen_inp inp_top' 
-                               placeholder='Enter your full name'/>
-                        <input type='text'  
-                               name='reg_email' 
-                               class='gen_inp inp_mid' 
-                               placeholder='Enter your email'/>
-                        <input type='password' 
-                               name='reg_pswd' 
-                               class='gen_inp inp_bottom' 
-                               placeholder='Enter Password'/>
-                        <input type='submit' 
-                               name='reg_sub'
-                               class='gen_sub reg_but' 
-                               value='REGISTER'/>
+                        <form action="#" method="POST" autocomplete="off">
+                            <input type='text'  
+                                   name='reg_name'
+                                   autocomplete="off" 
+                                   class='gen_inp inp_top' 
+                                   placeholder='Enter your full name' required />
+                            <input type='text'  
+                                   name='reg_email' 
+                                   autocomplete="off" 
+                                   class='gen_inp inp_mid' 
+                                   placeholder='Enter your email' required />
+                            <input type='password' 
+                                   name='reg_pswd' 
+                                   autocomplete="off" 
+                                   class='gen_inp inp_bottom' 
+                                   placeholder='Enter Password' required />
+                            <input type='submit' 
+                                   name='reg_sub'
+                                   class='gen_sub reg_but' 
+                                   value='REGISTER'/>
+                        </form>
                     </div>
                 </div>
             </div>
